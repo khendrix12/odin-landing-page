@@ -116,6 +116,26 @@ img{
     display: flex;
     flex: 4 1 auto;
     background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    padding: 6%;
+}
+#quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+#attribution{
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 24px;
+    align-self: end;
+    padding-right: 48px;
 }
 .contact{
     display: flex;
