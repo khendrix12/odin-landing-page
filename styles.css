@@ -86,7 +86,31 @@ img{
 }
 .content{
     display: flex;
+    flex-direction: column;
     flex: 5 1 auto;
+    align-items: center;
+    padding-bottom: 4%;
+}
+.content-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 2%;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    
+}
+.card{
+    width: 150px;
+}
+.image-placeholder{
+    height: 150px;
+    /* width: auto; */
+    border: 4px solid #3882F6;;
+    border-radius: 8px;
 }
 .quote{
     display: flex;
